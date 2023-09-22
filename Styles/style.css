@@ -1,7 +1,14 @@
 body {
-    background-color: blue;
+    background-color: #b5f0af;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 1900px;
+
+    
+}
+
+
+.menu{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
 }
 
 nav img {
@@ -110,6 +117,10 @@ h2 {
     margin-top: 100px;
 }
 
+.third{
+    height: 440px;
+}
+
 .pfirst{
     margin-left: 800px;
     margin-top: 50px;
@@ -138,4 +149,66 @@ h2 {
     left: 920px;
     bottom: 300px;
     border-radius: 20px;
+
+}
+
+.four{
+    height: 400px;
+}
+
+.h3third{  
+    margin-left: 800px;
+    font-size: 35px;
+}
+
+.pthird{
+    width: 600px;
+    margin-left: 800px;
+    font-size: 20px;
+}
+
+.imgfour{
+    width: 450px;
+    height: 300px;
+    position: relative;
+    left: 90px;
+    bottom: 300px;
+    border-radius: 20px;
+}
+
+.h2five{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.pfive{
+    font-size: 20px;
+    padding-top: 30px;
+    width: 600px;
+    text-align: center;
+    padding-left: 430px;
+    justify-content:end;
+}
+
+.columns{
+    padding-bottom: 10px;
+    margin: 5rem auto;
+    width: min(90%,75rem);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.imgcolum{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    
+}
+
+.divcolum{
+    padding-top: -40px;
+    padding-right: 30px;
+    text-align: center;
 }
